@@ -5,14 +5,15 @@
 }
 .containers {
     width: 100vw;
-    height : 90vh
+    height : 90vh;
+    margin-top : 60px;
     /* outline: 1px solid red; */
 }
 .containers h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size : 30px;
+    font-size : 6em;
 }
 #map {
     margin-bottom: 20px;
