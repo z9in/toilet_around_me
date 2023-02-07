@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.containers {
+    width: 400px;
+    /* outline: 1px solid red; */
+}
+.containers h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#map {
+    margin-bottom: 20px;
+}
+#input {
+    width: 85%;
+    height: 30px;
+    border: 2px solid #ccc;
+    padding-left: 1em;
+    margin-right: 5px;
+}
+#submit {
+    width: 10%;
+    height: 30px;
+    margin-bottom: 20px;
+}

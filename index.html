@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kakao 지도 시작하기</title>
+    <!-- <script
+    type="text/javascript"
+    src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9ac375b387a1665b4f25ab980f626d41"
+  ></script> -->
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9ac375b387a1665b4f25ab980f626d41&libraries=services"></script>
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="containers">
+      <h1>내 주변 공중 화장실 찾기</h1>
+      <div id="map" style="width: 400px; height: 400px;"></div>
+      <input type="text", value="" id="input" placeholder="검색하고 싶은 지역을 입력하세요">
+      <input id="submit" type="submit" value="발송">
+      <p id="titleA"></p>
+      <div id="roadview" style="width: 400px; height: 400px;"></div>
+    </div>
+    
+   
+    <script src="./main.js"></script>
+  </body>
+</html>
