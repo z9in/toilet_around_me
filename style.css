@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    width: 100vw;
+    height : 5vh;
+    background-color : black;
+}
+footer {
+    width: 100vw;
+    height : 5vh;
+    background-color : black;
+}
 .containers {
     width: 100vw;
     height : 90vh;
@@ -13,6 +23,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    height : 50px;
     font-size : 6em;
 }
 #map {
