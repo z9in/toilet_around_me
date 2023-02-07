@@ -12,7 +12,7 @@
       buttons.addEventListener('click',()=>{
         return finding(inputBox.value)
       })
-      function finding(values='안양'){
+      function finding(values='안양시 장내로125번길'){
         inputBox.value=''
         geocoder.addressSearch(values, function(result, status) { 
         return maping(result)
