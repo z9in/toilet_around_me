@@ -3,19 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+body {
     width: 100vw;
-    height : 5vh;
-    background-color: black;
-}
-footer {
-    width: 100vw;
-    height : 5vh;
-    background-color: black;
+    height: 100vh;
 }
 .containers {
-    width: 100vw;
-    height : 90vh;
+    width: 100%;
+    height : 100%;
     margin-top : 60px;
     /* outline: 1px solid red; */
 }
